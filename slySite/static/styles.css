@@ -1,3 +1,13 @@
+@font-face {
+    font-family: slyFont;
+    src: url(BADABB__.TTF);
+}
+body{
+    font-family: slyFont;
+    letter-spacing: 1px;
+    border: 2px solid rgb(22,101,163);
+
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -5,3 +15,4 @@
     justify-content: space-evenly;
     background-color: beige;
 }
+
