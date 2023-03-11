@@ -16,3 +16,20 @@ body{
     background-color: beige;
 }
 
+.container{
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(41,200,70); 
+    border-radius: 18px;
+    padding: 15px;
+
+}
+.subcontainer{
+    border-collapse: collapse;
+    border: 2px solid rgb(22,101,163);
+    padding: 15px;
+
+}
